@@ -7,7 +7,7 @@ def hello_world():
 
 dag = DAG(
     'TEST_DAG_for_bootcamp',
-    description='Простой DAG для теста и проверки работы',
+    description='Простой DAG для теста и проверки работы DAG',
     schedule_interval='@once',
     start_date=datetime(2025, 6, 10),
     catchup=False
