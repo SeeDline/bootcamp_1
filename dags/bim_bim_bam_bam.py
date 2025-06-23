@@ -6,7 +6,7 @@ def adios_world():
     print("ничего не понятно, но очень интересно")
 
 dag = DAG(
-    dag_id='four fours',
+    dag_id='four_fours',
     description='вроде даг',
     schedule_interval='@once',
     start_date=datetime(2025, 6, 10),
