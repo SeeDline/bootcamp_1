@@ -15,7 +15,7 @@ dag = DAG(
 
 bootcamp = PythonOperator(
     task_id='offer_for_350k',  # допустимый task_id
-    python_callable=hello_world,
+    python_callable=adios_world,
     dag=dag
 )
 
