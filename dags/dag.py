@@ -6,7 +6,7 @@ def hello_world():
     print("Мурад здесь. В Махачкалу?")
 
 dag = DAG(
-    'Мурад здесь. В Махачкалу?',
+    'murad_2',
     description='сестрам задеваешь',
     schedule_interval='@once',
     start_date=datetime(2025, 6, 10),
